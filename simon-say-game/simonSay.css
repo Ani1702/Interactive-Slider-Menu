@@ -1,0 +1,46 @@
+h1{
+    text-align: center;
+}
+h3  {
+    text-align: center;
+}
+.gameBox{
+    display: flex;
+    flex-direction: row;
+    height:500px;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    justify-self: center;
+    margin:0 auto;
+
+}
+.box{
+    height:100px;
+    width: 100px;
+    background-color: aqua;
+    border:solid black 4px;
+    margin-right:10px;
+    margin-bottom:10px;
+    border-radius: 10px;
+}
+.box1{
+    background-color: #5496fb;
+}
+.box2{
+    background-color: #A8EB12;
+}
+.box3{
+    background-color: #ffacac;
+}
+.box4{
+    background-color: #ffea04;
+}
+
+.flash{
+    background-color: white;
+}
+.red{
+    background-color: red;
+}

@@ -1,0 +1,22 @@
+/* div{
+    height: 200px;
+    width: 300px;
+    background-color: green;
+}
+ul{
+    background-color: blue;
+}
+li{
+    background-color: yellow;
+} */
+
+li{
+    padding:0.2rem;
+    
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
