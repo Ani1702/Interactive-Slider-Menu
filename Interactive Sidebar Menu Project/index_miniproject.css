@@ -1,0 +1,89 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+}
+.main_box{
+    background: url(ales-nesetril-Im7lZjxeLhg-unsplash\ \(1\).jpg);
+    height: 100vh;
+    background-size: cover;
+}
+.btn_one{
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    position: absolute;
+    top: 9px;
+    left:16px;
+}
+.sidebar_menu{
+    position:fixed;
+    left:-350px;
+    height: 100vh;
+    width: 300px;
+    background-color: rgba(255,255,255,0.1);
+    box-shadow: 0 0 6px rgba(255,255,255,0.5);
+    color: white;
+}
+.sidebar_menu .logo {
+    position: absolute;
+    width:100%;
+    height: 60px;
+    line-height: 60px;
+    box-shadow: 0 0 6px rgba(255,255,255,0.4);
+}
+.sidebar_menu .logo a{
+    position: absolute;
+    left:60px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+}
+.sidebar_menu .btn_two{
+    color: gray;
+    font-size: 20px;
+    line-height: 60px;
+    position: absolute;
+    left: 280px;
+    top: 0px;
+    /* opacity: 0; */
+}
+.sidebar_menu .menu{
+    position: absolute;
+    width: 100%;
+    top:80px;
+}
+.sidebar_menu .menu li{
+    margin-top: 6px;
+    padding:14px 20px;
+}
+.sidebar_menu.menu i,a{
+    color: white;
+    text-decoration: none;
+}
+.sidebar_menu i{
+    padding-right: 10px;
+}
+.sidebar_menu .social_media{
+    position: absolute;
+    top:700px;
+    left:25%;
+}
+.sidebar_menu .social_media ul i{
+    font-size: 20px;
+    opacity: 0.5;
+}
+#check{
+    display: none;
+}
+.sidebar_menu .menu li:hover{
+   box-shadow: 0 0 6px rgba(255,255,255,0.4); 
+}
+.sidebar_menu .social_media i:hover{
+    opacity: 1;
+    transform: scale(1.3);
+}
+#check:checked ~ .sidebar_menu{
+    left:0;
+}
